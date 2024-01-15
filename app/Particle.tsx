@@ -152,7 +152,7 @@ const ParticleCanvas: React.FC = () => {
 
     animate();
 
-    return () => cancelAnimationFrame(animate);
+    return () => cancelAnimationFrame(requestAnimationFrame(animate));
   }, []);
 
   return (
