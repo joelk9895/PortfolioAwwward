@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../font/Satoshi-Bold.woff2') format('woff2'),
+    url('../font/Satoshi-Bold.woff') format('woff'),
+    url('../font/Satoshi-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   min-width: 0;
-  font-family: sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 .hero{
   position: absolute;
@@ -28,4 +38,5 @@ header h1{
   font-size: 5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  font-family: "Satoshi", sans-serif;
 }
