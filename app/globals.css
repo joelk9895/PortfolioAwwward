@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 0;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.hero{
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+}
+body{
+  background-color: white;
+}
+.hero p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+
+}
+header h1{
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
