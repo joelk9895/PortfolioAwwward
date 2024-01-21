@@ -54,7 +54,7 @@ export default function Home() {
               alt="Joel K George's Photo"
               className="w-16 h-16 rounded-full"
             />
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <motion.div style={{ x }} className="buttonContainer">
             <button className="button">Contact Me</button>
