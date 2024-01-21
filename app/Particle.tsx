@@ -158,7 +158,7 @@ const ParticleCanvas: React.FC = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="w-full absolute top-0 left-0 h-[100svh]"
+      className="w-full absolute top-0 left-0 z-10 bg-white"
     />
   );
 };
