@@ -48,11 +48,11 @@ export default function Home() {
       </motion.div>
       <motion.div style={{ y }} ref={container2} className="contact">
         <div className="title">
-          <h2 className="text-white text-6xl text-center font-semibold flex">
+          <h2 className="text-white text-6xl text-center font-semibold flex profile">
             <img
               src="https://media.licdn.com/dms/image/D5603AQFCgtVBElsbGQ/profile-displayphoto-shrink_800_800/0/1700056565326?e=1711584000&v=beta&t=YaV8nnNMApv1t8sJMJjlP3PCd4HiRP5KgOppFRbtbZQ"
               alt="Joel K George's Photo"
-              className="w-16 h-16 rounded-full"
+              className="w-[70px] h-[70px] min-w-[70px] rounded-[50%]"
             />
             Let&apos;s Connect
           </h2>
